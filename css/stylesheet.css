@@ -1,0 +1,162 @@
+h2 {
+	font-size: 30px;
+}
+h4 {
+	font-size: 13px;
+	padding-left: 15px;
+}
+.tri {
+	display: none;
+}
+.top-img {
+	padding-top: 70px;
+	padding-left: 30px;
+	padding-right: 30px;
+	/* 横幅の大きさに応じて可変 */
+	height: 680px;
+	width: 100%;
+	object-fit: cover;
+	object-position: 60% 0;
+}
+.form-de {
+	border: 1px solid #dee2e6;
+	/* topとleftを%指定で横幅可変に対応 */
+	position: absolute;
+	top: 15%;
+	right: 0;
+	bottom: 0;
+	left: 67%;
+	padding: 1.25rem;
+	background-color: #FFFFFF;
+	height: 430px;
+	width: 450px;
+}
+.form-start-btn {
+	width: 100%;
+}
+.host-img-dennis {
+	position: absolute;
+	top: 150%;
+	left: 50%;
+	height: 500px;
+	width: 500px;
+}
+.middle-img {
+	height: 600px;
+	width: 1000px;
+	/* 画像を中央に配置 */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.host-img-tessa {
+	height: 500px;
+	width: 500px;
+}
+.hosting-img {
+	height: 180px;
+	width: 320px;
+}
+.monetaiz-img {
+	height: 400px;
+	width: 1000px;
+	position: relative;
+}
+.monetaiz-text {
+	position: relative;
+	top: -60%;
+	left: 30px;
+}
+.font-size {
+	font-size: 30px;
+}
+.font-size-90 {
+	font-size: 90%;
+}
+.host-span {
+	font-size: 50px;
+	color: orange;
+}
+.btn-black {
+  color: #212529;
+  font-weight: bold;
+  background-color: white;
+  border: solid 2px black;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+.color-black {
+	color: black;
+}
+.color-gray {
+	color: lightgray;
+}
+.color-white {
+	color: white;
+}
+.font-weight-bold {
+	font-weight: bold;
+}
+.line-height-1 {
+	line-height: 25px;
+}
+.line-height-3 {
+	line-height: 45px;
+}
+.check-list ul {
+  list-style-type: none;
+}
+.check-list li {
+  position: relative;
+  white-space: nowrap;
+}
+/* リストの戦闘をチェックマークにする */
+.check-list li::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 1.2em;
+  left: -1.5em;
+  width: 10px;
+  height: 5px;
+  border-left: 2px solid #25AF01;
+  border-bottom: 2px solid #25AF01;
+  transform: rotate(-45deg);
+}
+.question ul {
+	/* 縦2列表示 */
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	height: 400px;
+	list-style: none outside;
+}
+.question li {
+	padding-bottom: 80px;
+	padding-right: 200px;
+	white-space: nowrap;
+}
+footer {
+	background-color: #f8f9fa;
+  	border-top: 1px solid #dee2e6;
+}
+footer a {
+	/* ボタンをまとめて黒にする。 */
+	color: black;
+}
+.footer-jp {
+	text-decoration: underline;
+}
+.info-container {
+	display: flex;
+	flex-wrap: nowrap;
+	padding-top: 80px;
+}
+.list-style {
+	padding-right: 80px;
+	font-size: 90%;
+}
+.list-style li {
+	padding-bottom: 15px;
+	white-space: nowrap;
+}
