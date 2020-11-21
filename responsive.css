@@ -1,0 +1,247 @@
+@media (max-width: 1128px) {
+	* {
+
+	}
+	.header-list {
+		
+	}
+	.toast-header {
+		display: none;
+	}
+	header {
+		position: relative;
+	}
+	.tri {
+		display: block;
+		z-index: 1;
+		position: absolute;
+		top: 20px;
+		left: 20px;
+	}
+	input.place-text-box {
+		width: 700px;
+	}
+	.btn-danger {
+		width: 700px;
+	}
+	.top-img {
+		padding: 0;
+		height: 280px;
+	}
+	.form-de {
+		border: 0;
+		background-color: transparent;
+		position: relative;
+		top: -120px;
+		left: 15%;
+	}
+	.form-size {
+		width: 700px;
+	}
+	h1 {
+		color: white;
+		width: 800px;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	.display-4 {
+		font-size: 40px;
+	}
+	.container {
+		display: block;
+	}
+	.col-6, .col-4 {
+		max-width: 70%;
+		margin: 0 auto;
+		padding-bottom: 20px;
+	}
+	.col-5 {
+		max-width: 50%;
+		margin: 0 auto;
+	}
+	.col-9 {
+		position: relative;
+		top: -350px;
+	}
+	.btn-light {
+		position: relative;
+		top: -350px;
+	}
+	.font-size {
+		font-size: 18px;
+	}
+	.padding-top {
+		padding-top: -100px;
+	}
+	.margin-bottom {
+		margin-bottom: -100px;
+	}
+	.host-img-dennis {
+		height: 300px;
+		width: 300px;
+		position: relative;
+		top: -300px;
+		margin-right: 400px;
+	}
+	.dennis-comment {
+		max-width: 50%;
+	}
+	.middle-img {
+		height: 400px;
+		width: 600px;
+	}
+	.host-img-tessa {
+		height: 330px;
+		width: 280px;
+		position: relative;
+		left: 50px;
+	}
+	.hosting-img {
+		height: 100px;
+		width: 200px;
+	}
+	.hosting {
+		border: 1px solid #dee2e6;
+		width: 200px;
+	}
+	.btn-black {
+		position: relative;
+		left: 110px;
+	}
+	.question ul {
+		display: block;
+	}
+	.question li {
+		padding-left: 70px;
+		padding-bottom: 40px;
+	}
+	.list-style {
+		display: flex;
+	}
+	.list-style li {
+		padding-right: 20px;
+	}
+	.dot {
+		display: none;
+	}
+	.copy-right {
+		text-align: center;
+	}
+}
+@media (max-width: 768px) {
+	* {
+
+	}
+	h1 {
+		width: 450px;
+	}
+	h4 {
+		border-top: 1px solid #dee2e6;
+		padding-top: 30px;
+	}
+	.footer-top {
+		border-top: none;
+	}
+	.container, .nav, .col-4, .col-5, .col-6 {
+		padding-left: 0;
+		text-align: left;
+		max-width: 100%;
+	}
+	.row {
+		display: block;
+	}
+	.text-center {
+		display: flex;
+		white-space: nowrap;
+	}
+	.form-de {
+		position: relative;
+		top: -120px;
+		left: 0;
+	}
+	.form-de p {
+		white-space: nowrap;
+	}
+	.form-size {
+		width: 650px;
+	}
+	input.place-text-box {
+		width: 650px;
+	}
+	.btn-danger {
+		width: 650px;
+	}
+	.host-img-dennis {
+		height: 600px;
+		width: 600px;
+		position: relative;
+		left: 0;
+	}
+	.dennis-comment {
+		position: relative;
+		top: 600px;
+		max-width: 100%;
+	}
+	.btn-black {
+		position: relative;
+		left: 0;
+	}
+	.middle-img {
+		height: 600px;
+		width: 600px;
+		object-fit: cover;
+	}
+	.host-img-tessa {
+		height: 600px;
+		width: 600px;
+		position: relative;
+		left: 0;
+	}
+	.float-right {
+		display: block;
+		padding-bottom: 200px;
+	}
+	.padding-top {
+		padding-top: 300px;
+	}
+	.monetaiz-img {
+		position: relative;
+		left: 0;
+		width: 100%;
+	}
+	.question li {
+		padding-left: 0;
+		padding-right: 0;
+		text-align: left;
+	}
+	.hosting-flex {
+		display: flex;
+	}
+	.hosting {
+		height: 80px;
+		width: 100%;
+	}
+	.hosting p {
+		padding-left: 10px;
+	}
+	.hosting-img {
+		height: 80px;
+		width: 80px;
+		object-fit: cover;
+	}
+	.hosting-more {
+		display: none;
+	}
+	.list-style {
+		display: block;
+	}
+	.copy-right {
+		position: relative;
+		left: 30px;
+	}
+	.footer-flex {
+		display: flex;
+		padding-left: 10px;
+	}
+}
